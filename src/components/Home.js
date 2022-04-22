@@ -13,7 +13,7 @@ export const Home = () => {
      
 return (
    
- <Container fluid  className='container' >
+ <Container fluid  className='containerhome' >
        <Row >
              <Col>
                 <span className ='text2'>{text}</span>

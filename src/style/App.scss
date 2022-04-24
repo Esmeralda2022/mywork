@@ -23,7 +23,7 @@ body {
 }
 
 
-/*stilizimi i contact*/
+/*stilizimi i about*/
 .abouttext{
   animation-duration: 10s;
   animation-name: slidein;
@@ -64,20 +64,21 @@ body {
   font-family: 'Philosopher', sans-serif;
   margin-bottom: 100px;
   margin-top: 50px;
-
-  @media only screen and (max-width: 750px){
+  @media (max-width: 991.98px){
     font-size: 25px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+  
  }
+ 
 }
 
 
 /* stilizimi i contact */
 
 #email{
-  @media only screen and (max-width: 1000px){
+  @media (max-width: 991.98px){
     margin-top: 25px;
   }
 }
@@ -110,7 +111,7 @@ body {
 }
 
 .navbar_3{
-  @media only screen and (max-width: 750px){
+  @media (max-width: 991.98px){
     margin-right: 10px;
     margin-left: 10px;
    

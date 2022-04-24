@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   background-image: url("./wallpaper.jpg");
-  background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-/*stilizimi i contact*/
+/*stilizimi i about*/
 .abouttext {
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
@@ -47,17 +47,13 @@ body {
 /*stilizimi i home*/
 .containerhome {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   width: 100%;
+  margin-top: 60px;
 }
 
 .containerhome span {
-  text-transform: uppercase;
   display: block;
+  text-transform: uppercase;
   font-size: 70px;
   color: #b3e360;
   font-family: 'Philosopher', sans-serif;
@@ -65,16 +61,14 @@ body {
   margin-top: 50px;
 }
 
-@media only screen and (max-width: 750px) {
+@media (max-width: 991.98px) {
   .containerhome span {
     font-size: 25px;
-    margin-top: 60px;
-    margin-bottom: 40px;
   }
 }
 
 /* stilizimi i contact */
-@media only screen and (max-width: 1000px) {
+@media (max-width: 991.98px) {
   #email {
     margin-top: 25px;
   }
@@ -104,12 +98,5 @@ body {
   border-top: 4px solid #BCFD4C;
   border-bottom: 4px solid #BCFD4C;
   padding: 6px 0;
-}
-
-@media only screen and (max-width: 750px) {
-  .navbar_3 {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
 }
 /*# sourceMappingURL=App.css.map */
